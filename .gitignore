@@ -53,8 +53,11 @@ mvnw.cmd
 *.sublime-snippet
 *.sublime-tmpl
 
+# 忽略错误日志文件
+hs_err_pid*
+replay_pid*
+
 # 保留Java源文件、Markdown文件和 .gitignore 文件
 !*.java
 !*.md
 !.gitignore
-*.jar
